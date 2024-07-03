@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(158, 157, 155);
+    margin: 0;
+}
+.main{
+    border: 4px solid gold;
+    height: auto;
+    text-align: center;
+}
+.picter img{
+ margin-top: 20px;
+ width: 150px;
+ height: 150px;
+ border: 8px solid goldenrod;
+ border-radius: 50%;
+ box-shadow: 10px 1px 1px 10px white;
+}
+.picter:hover{
+    transform: rotateY(360deg);
+    transition: 2s;
+    border: 4px double yellow;
+    border-radius: 50%;
+    box-shadow: 74px 1px 1px 5px hotpink;
+}
+h2{
+    color: azure;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+b{
+    color: gold;
+}
+.links{
+    display: block;
+    border: 8px solid goldenrod;
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 20px;
+    transition: 2s;
+}
+.links:hover{
+    border-radius: 30px 30px 30px 30px ;
+    background-color: rgb(218, 167, 12);
+    box-shadow: 3px 1px 3px 1px white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a{
+    color: wheat;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.copy{
+    padding: 20px;
+}
+span{
+    color: gold;
+}
+span:hover{
+    transition: 2s;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    color: blue;
+}
+h2:hover{
+    transition: 1s;
+    color: aqua;
+}
